@@ -9,6 +9,13 @@ public class Rectangle {
         lebar= 2;
         
     }
+
+    public Rectangle(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+    
+        
     
     void cetakInfo(){
         System.out.println("---------------------");
